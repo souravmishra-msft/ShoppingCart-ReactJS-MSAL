@@ -1,0 +1,47 @@
+.login-header-btn,
+.logout-header-btn {
+    width: auto;
+    height: 25px;
+    font-size: 31px;
+    border: none;
+    background: #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-btn,
+.logout-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    background: #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-header-btn:hover {
+    /* border: 2px solid rgb(248, 163, 5); */
+    color: rgb(248, 163, 5);
+}
+
+.logout-header-btn:hover {
+    /* border: 2px solid rgb(248, 163, 5); */
+    color: rgb(248, 163, 5);
+}
+
+.login-btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(248, 163, 5);
+}
+
+.logout-btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(248, 163, 5);
+}
+
+.login-btn:active {
+    transform: translateY(2px);
+}
